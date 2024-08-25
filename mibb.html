@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi novia?</title>
+    <style>
+
+        body {
+            background-color: #fce4ec;
+            font-family: 'Georgia', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            padding: 30px;
+            text-align: center;
+            border: 5px solid #f50057;
+        }
+        h1 {
+            color: #f50057;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        @media (min-width: 500px) {
+    .navegacion {
+        display: flex;
+        gap: 1rem;
+    }
+}
+        .quote {
+            font-style: italic;
+            color: #d81b60;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        .poem {
+            background-color: #f8bbd0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #880e4f;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        button {
+            background-color: #f50057;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.5em;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: transform 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            margin-top: 30px;
+            color: #d81b60;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>mi xio hermosa</h2>
+        <h1>¿Quieres ser mi novia?</h1>
+
+        <!-- Contenedor de Imágenes -->
+        <audio controls>
+            <source src="/cafe/Si te enamoras.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <!-- Frases Románticas -->
+        <div class="quote">"Tú eres la razón por la que sonrío cada día."</div>
+        <div class="quote">"No puedo imaginar mi vida sin ti a mi lado."</div>
+        <div class="quote">"Contigo, cada momento es mágico."</div>
+
+        <!-- Poema de Amor -->
+        <div class="poem">
+            
+            Te quiero tanto que estás presente incluso en esos momentos en los que nos separan todos estos kilómetros.<br>
+        </div>
+        <div class="poem">
+            A veces, el amor a distancia es más verdadero, porque te enamoras del interior de una persona y no de su apariencia <br>
+        </div>
+
+        <!-- Botón de Acción -->
+        <button onclick="alert('¡Sí, quiero ser tu novia!')">¡Sí!</button>
+
+        <!-- Firma Personalizada -->
+        <footer>Con todo mi amor, [Franco, Chucky]</footer>
+        
+    </div>
+    
+</body>
+</html>
